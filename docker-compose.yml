@@ -1,0 +1,22 @@
+# WCD lab: a real cache (nginx) in front of the origin (FastAPI).
+# Bring it up with:   docker compose up --build
+# Then the whole system is reachable at  http://localhost:8080
+services:
+  origin:
+    build:
+      context: .
+      dockerfile: origin/Dockerfile
+    # Not published to the host: the ONLY way in is through the cache,
+    # exactly like a real deployment where clients never hit the origin.
+    expose:
+      - "8000"
+
+  nginx:
+    image: nginx:1.27-alpine
+    depends_on:
+      - origin
+    ports:
+      - "8080:80"          # host:8080  ->  cache:80
+    # Swap this file to change cache behaviour (Phase 6 config-sensitivity).
+    volumes:
+      - ./nginx/${NGINX_CONF:-vulnerable.conf}:/etc/nginx/conf.d/default.conf:ro

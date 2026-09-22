@@ -1,0 +1,26 @@
+{
+  "base": "http://localhost:8080",
+  "note": "Run against the VULNERABLE nginx config. Target = sensitive (high-impact) WCD. Harmless WCD (non-sensitive) is real but out of target; see origin/pages.py.",
+  "n_endpoints": 55,
+  "n_wcd_any": 33,
+  "n_sensitive_target": 22,
+  "n_harmless_wcd": 11,
+  "DE": {
+    "tp": 22,
+    "fp": 11,
+    "tn": 22,
+    "fn": 0,
+    "precision": 0.6667,
+    "recall": 1.0,
+    "f1": 0.8
+  },
+  "CC": {
+    "tp": 11,
+    "fp": 0,
+    "tn": 33,
+    "fn": 11,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6667
+  }
+}

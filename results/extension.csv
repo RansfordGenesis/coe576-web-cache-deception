@@ -1,0 +1,15 @@
+extension,attack_success
+css,True
+js,True
+png,True
+jpg,True
+gif,True
+svg,True
+woff2,True
+pdf,True
+txt,True
+php,False
+html,False
+json,False
+aspx,False
+xml,False

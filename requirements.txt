@@ -1,0 +1,11 @@
+# --- origin server ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+# --- detectors & experiments ---
+requests==2.32.3
+# --- analysis & plots ---
+pandas==2.2.3
+matplotlib==3.10.0
+# --- tests ---
+pytest==8.3.4
+httpx==0.28.1

@@ -1,0 +1,56 @@
+path,label,ground_truth_is_wcd,ground_truth_sensitive_target,de_detected,de_stop,cc_detected
+/about,safe: static,False,False,False,step1,False
+/api/time,safe: not-confusable,False,False,False,step2,False
+/api1,safe: not-confusable,False,False,False,step2,False
+/api10,safe: not-confusable,False,False,False,step2,False
+/api2,safe: not-confusable,False,False,False,step2,False
+/api3,safe: not-confusable,False,False,False,step2,False
+/api4,safe: not-confusable,False,False,False,step2,False
+/api5,safe: not-confusable,False,False,False,step2,False
+/api6,safe: not-confusable,False,False,False,step2,False
+/api7,safe: not-confusable,False,False,False,step2,False
+/api8,safe: not-confusable,False,False,False,step2,False
+/api9,safe: not-confusable,False,False,False,step2,False
+/csrf1,sensitive+no-marker,True,True,True,step3,False
+/csrf10,sensitive+no-marker,True,True,True,step3,False
+/csrf2,sensitive+no-marker,True,True,True,step3,False
+/csrf3,sensitive+no-marker,True,True,True,step3,False
+/csrf4,sensitive+no-marker,True,True,True,step3,False
+/csrf5,sensitive+no-marker,True,True,True,step3,False
+/csrf6,sensitive+no-marker,True,True,True,step3,False
+/csrf7,sensitive+no-marker,True,True,True,step3,False
+/csrf8,sensitive+no-marker,True,True,True,step3,False
+/csrf9,sensitive+no-marker,True,True,True,step3,False
+/dash1,sensitive+marker,True,True,True,step3,True
+/dash10,sensitive+marker,True,True,True,step3,True
+/dash2,sensitive+marker,True,True,True,step3,True
+/dash3,sensitive+marker,True,True,True,step3,True
+/dash4,sensitive+marker,True,True,True,step3,True
+/dash5,sensitive+marker,True,True,True,step3,True
+/dash6,sensitive+marker,True,True,True,step3,True
+/dash7,sensitive+marker,True,True,True,step3,True
+/dash8,sensitive+marker,True,True,True,step3,True
+/dash9,sensitive+marker,True,True,True,step3,True
+/doc1,safe: static,False,False,False,step1,False
+/doc10,safe: static,False,False,False,step1,False
+/doc2,safe: static,False,False,False,step1,False
+/doc3,safe: static,False,False,False,step1,False
+/doc4,safe: static,False,False,False,step1,False
+/doc5,safe: static,False,False,False,step1,False
+/doc6,safe: static,False,False,False,step1,False
+/doc7,safe: static,False,False,False,step1,False
+/doc8,safe: static,False,False,False,step1,False
+/doc9,safe: static,False,False,False,step1,False
+/feed1,WCD (harmless),True,False,True,step3,False
+/feed10,WCD (harmless),True,False,True,step3,False
+/feed2,WCD (harmless),True,False,True,step3,False
+/feed3,WCD (harmless),True,False,True,step3,False
+/feed4,WCD (harmless),True,False,True,step3,False
+/feed5,WCD (harmless),True,False,True,step3,False
+/feed6,WCD (harmless),True,False,True,step3,False
+/feed7,WCD (harmless),True,False,True,step3,False
+/feed8,WCD (harmless),True,False,True,step3,False
+/feed9,WCD (harmless),True,False,True,step3,False
+/login,sensitive+no-marker,True,True,True,step3,False
+/news,WCD (harmless),True,False,True,step3,False
+/profile,sensitive+marker,True,True,True,step3,True
